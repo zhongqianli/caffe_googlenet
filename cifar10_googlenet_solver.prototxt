@@ -1,0 +1,17 @@
+test_iter: 100
+test_interval: 500
+base_lr: 0.009999999776482582
+display: 100
+max_iter: 120000
+lr_policy: "multistep"
+stepvalue:80000
+stepvalue:100000
+stepvalue:110000
+gamma: 0.10000000149011612
+momentum: 0.8999999761581421
+weight_decay: 0.0005000000237487257
+snapshot: 1000
+snapshot_prefix: "snapshot/cifar10_googlenet"
+solver_mode: GPU
+net: "cifar10_googlenet_train_test.prototxt"
+type: "SGD"

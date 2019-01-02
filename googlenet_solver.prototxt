@@ -1,0 +1,15 @@
+test_iter: 100
+test_interval: 500
+base_lr: 0.009999999776482582
+display: 100
+max_iter: 100000
+lr_policy: "step"
+gamma: 0.9599999785423279
+momentum: 0.8999999761581421
+weight_decay: 0.0005000000237487257
+stepsize: 5000
+snapshot: 1000
+snapshot_prefix: "snapshot/googlenet"
+solver_mode: GPU
+net: "googlenet_train_test.prototxt"
+type: "SGD"
